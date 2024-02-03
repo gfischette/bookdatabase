@@ -49,7 +49,6 @@
 <?php endwhile;  ?>
     </tbody>
   </table>
-    </div>
 
 
 </body>

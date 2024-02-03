@@ -67,7 +67,6 @@
 
 <div id="response"></div>
 
-</div>
 
 <script src="js/enter.js"></script>
 
