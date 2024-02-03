@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Feb 03, 2024 at 01:54 AM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Host: localhost:3306
+-- Generation Time: Feb 03, 2024 at 02:12 AM
+-- Server version: 5.7.44
+-- PHP Version: 8.1.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bookdatabase`
+-- Database: `gabrie44_bookdatabase`
 --
 
 -- --------------------------------------------------------
@@ -31,9 +31,9 @@ CREATE TABLE `books` (
   `id` int(11) NOT NULL,
   `title` varchar(50) NOT NULL,
   `author` varchar(50) NOT NULL,
-  `genre` varchar(20) NOT NULL,
+  `genre` varchar(30) NOT NULL,
   `review` varchar(500) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `books`
@@ -48,7 +48,16 @@ INSERT INTO `books` (`id`, `title`, `author`, `genre`, `review`) VALUES
 (9, 'The Secret History', 'Donna Tartt', 'Literary Fiction', 'This was an interesting spin on a murder mystery book in a dark academia setting. I had lots of fun reading it, and it\\\'s a really good book that focuses on the flaws of the characters.'),
 (10, 'On Earth We\\\'re Briefly Gorgeous', 'Ocean Vuong', 'Literary Fiction', 'Are you looking for a beautifully written book that makes you feel every single emotion while reading? Pick up this book right now!'),
 (11, 'Babel', 'R.F. Kuang', 'Science Fiction/Fant', 'This book is absolutely amazing, and every reader should have to read it.'),
-(12, 'She who became the sun ', 'Shelley Parker-chan', 'Science Fiction/Fant', 'so good so fun, rip esen ');
+(12, 'She who became the sun ', 'Shelley Parker-chan', 'Science Fiction/Fant', 'so good so fun, rip esen '),
+(13, 'The Hunger Games', 'Suzanne Collins', 'Young Adult', 'A classic now that everyone should read!'),
+(14, 'Icebreaker', 'Hannah Grace', 'Romance', 'Hockey player + figure skater. Fun stuff.'),
+(15, 'The Kiss Quotient', 'Helen Hoang', 'Romance', 'Soooo good. Loved it, loved the other two books, as well. Read it.'),
+(16, 'All My Rage', 'Sabaa Tahir', 'Young Adult', 'Very good book, made me cry.'),
+(17, 'Loveless', 'Alice Oseman', 'Romance', 'Coming of age.'),
+(19, 'The Priory of the Orange Tree', 'Samantha Shannon', 'Science Fiction/Fantasy', 'Very long, but good. '),
+(20, 'Pachinko', 'Min Jin Lee', 'Historical Fiction', 'Great story'),
+(22, 'A Good Girlâ€™s Guide to Murder', 'Holly Jackson', 'Young Adult', 'A good mystery book for young adults '),
+(23, 'Beach Read', 'Emily Henry', 'Romance', 'Super engaging romance');
 
 --
 -- Indexes for dumped tables
@@ -68,7 +77,7 @@ ALTER TABLE `books`
 -- AUTO_INCREMENT for table `books`
 --
 ALTER TABLE `books`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
