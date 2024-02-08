@@ -27,7 +27,7 @@
 
 </header>
 
-<table class="table table-striped table-bordered table-responsive w-75 mx-auto">
+<table class="table table-striped table-bordered table-responsive w-50 mx-auto">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Title</th>
