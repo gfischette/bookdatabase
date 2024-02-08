@@ -53,6 +53,7 @@
             </div>
             <div class="my-4 pb-5">
                 <input type="submit" id="submit" class="btn btn-secondary" value="Submit">
+                <input type="reset" class="btn btn-secondary" value="Reset">
             </div>
 
 
