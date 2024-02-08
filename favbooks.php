@@ -27,7 +27,7 @@
 
 </header>
 
-<table class="table table-striped table-bordered table-responsive w-50 mx-auto">
+<table class="table table-striped table-bordered table-responsive w-75 mx-auto">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Title</th>
@@ -43,7 +43,7 @@
   <td><?php echo stripslashes($row['title']); ?></td>
   <td><?php echo $row['author']; ?></td>
   <td><?php echo $row['genre']; ?></td>
-  <td><?php echo $row['review']; ?></td>
+  <td><?php echo stripslashes($row['review']); ?></td>
     </tr>
 
 <?php endwhile;  ?>

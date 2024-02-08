@@ -37,13 +37,13 @@
                 <label for="thirdquestion" class="form-label">Genre</label>
                 <select class="form-select" name="genre" id="thirdquestion" required>
                     <option disabled selected value>Select an option </option>
-                    <option value="Romance">Romance</option>
-                    <option value="Science Fiction/Fantasy">Science Fiction/Fantasy</option> 
                     <option value="Historical Fiction">Historical Fiction</option> 
                     <option value="Literary Fiction">Literary Fiction</option> 
-                    <option value="Young Adult">Young Adult</option> 
                     <option value="Mystery/Thriller">Mystery/Thriller</option> 
-                    <option value="Non-Fiction">Non-Fiction</option> 
+                    <option value="Non-Fiction">Non-Fiction</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Science Fiction/Fantasy">Science Fiction/Fantasy</option> 
+                    <option value="Young Adult">Young Adult</option>  
                 </select>
             </div>
 
