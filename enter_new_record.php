@@ -21,7 +21,7 @@
                 <p>Enter your new favorite read below!</p>
             </div>
 
-            <form id="favoriteform" method="post" action="" autocomplete="off">
+            <form id="favoriteform" method="post" autocomplete="off">
 
             <div class="my-4">
                 <label for="firstquestion" class="form-label">Title of Book</label>
@@ -36,7 +36,7 @@
             <div class="my-4">
                 <label for="thirdquestion" class="form-label">Genre</label>
                 <select class="form-select" name="genre" id="thirdquestion" required>
-                    <option value="blank"></option>
+                    <option disabled selected value>Select an option </option>
                     <option value="Romance">Romance</option>
                     <option value="Science Fiction/Fantasy">Science Fiction/Fantasy</option> 
                     <option value="Historical Fiction">Historical Fiction</option> 
